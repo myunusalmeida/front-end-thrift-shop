@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Datang di Thrift Shop</title>
+
+    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://unpkg.com/akar-icons-fonts"></script>
+</head>
+
+<body class="bg-body-tertiary admin-panel">
+    <nav class="navbar navbar-expand-lg bg-dark py-3" data-bs-theme="dark">
+        <div class="container-fluid px-3 px-md-5">
+            <a class="navbar-brand" href="#">Admin Thrift Shop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-2">
+                    <li class="nav-item">
+                        <a class="nav-link btn active" href="#">
+                            <i class="ai-dashboard"></i> Dashboard
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link btn dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="ai-shipping-box-v1"></i> Produk
+                        </a>
+                        <ul class="dropdown-menu mt-1 mt-md-3">
+                            <li><a class="dropdown-item" href="#">Manajemen Produk</a></li>
+                            <li><a class="dropdown-item" href="#">Kategori Produk</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn" href="#">
+                            <i class="ai-newspaper"></i> Transaksi
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn"><i class="ai-gear"></i> Store Setting</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Admin
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end mt-1 mt-md-3">
+                            <li><a class="dropdown-item" href="#">Logout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container-fluid px-3 px-md-5 py-5">
+        <h2 class="text-dark fw-semibold mb-1">Dashboard</h2>
+        <p class="mb-5 text-secondary">Look what you have made today!</p>
+
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card border-0 mb-4">
+                    <div class="card-body p-4">
+                        <i class="ai-shipping-box-v1 fs-1 text-dark"></i>
+                        <h5 class="text-dark mt-2">100 Produk</h5>
+                        <p class="text-secondary mt-2 mb-0">Semua produk terpublish</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card border-0 mb-4">
+                    <div class="card-body p-4">
+                        <i class="ai-money fs-1 text-dark"></i>
+                        <h5 class="text-dark mt-2">Rp. 4,000,000</h5>
+                        <p class="text-secondary mt-2 mb-0">Pendapatan bulan ini</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card border-0 mb-4">
+                    <div class="card-body p-4">
+                        <i class="ai-newspaper fs-1 text-dark"></i>
+                        <h5 class="text-dark mt-2">120 Transaksi</h5>
+                        <p class="text-secondary mt-2 mb-0">Transaksi bulan ini</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card border-0 mb-4">
+                    <div class="card-body p-4">
+                        <i class="ai-people-group fs-1 text-dark"></i>
+                        <h5 class="text-dark mt-2">500 Pelanggan</h5>
+                        <p class="text-secondary mt-2 mb-0">Total pelanggan</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

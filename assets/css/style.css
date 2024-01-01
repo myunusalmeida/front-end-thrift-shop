@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Rubik", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.form-control:focus {
+  border-color: var(--bs-dark);
+  box-shadow: none;
+}
+
+.fs-7 {
+  font-size: 14px;
+}
+
+.fs-8 {
+  font-size: 12px;
+}
+
+section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+section .title {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+section.header-section .title {
+  font-size: 90px;
+  font-weight: 800;
+  line-height: 70px;
+}
+
+section.header-section .header-img {
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-product .img-fluid {
+  overflow: hidden;
+  height: 400px;
+}
+
+.card-product .img-fluid img {
+  transition: 0.3s;
+}
+
+.card-product .img-fluid img:hover {
+  transform: scale(1.2);
+}
+
+.card-product .product-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  section .title {
+    font-size: 32px;
+  }
+
+  section.header-section .title {
+    font-size: 54px;
+    line-height: 50px;
+  }
+
+  section.header-section .header-img {
+    height: 400px;
+  }
+
+  .card-product .img-fluid {
+    height: 300px;
+  }
+}
+
+.admin-panel .navbar .nav-item .nav-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 16px;
+}
+
+.admin-panel .navbar .nav-item .nav-link:hover,
+.admin-panel .navbar .nav-item .nav-link.active {
+  background-color: var(--bs-gray-800);
+}
